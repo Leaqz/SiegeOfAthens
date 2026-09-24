@@ -9,6 +9,4 @@ document.getElementById("back").addEventListener("click", () => {
   else chrome.tabs.getCurrent((tab) => tab && chrome.tabs.remove(tab.id));
 });
 
-document.getElementById("settings").addEventListener("click", () => {
-  chrome.runtime.openOptionsPage();
-});
+
