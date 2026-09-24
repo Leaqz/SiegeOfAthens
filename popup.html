@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { width: 260px; padding: 14px; }
+    #site { font-weight: 600; word-break: break-all; margin: 2px 0 12px; }
+    button { width: 100%; margin-top: 6px; }
+  </style>
+</head>
+<body>
+  <div id="incognito-warning" class="warning" hidden></div>
+  <div class="muted">Current site</div>
+  <div id="site">—</div>
+  <button id="block" class="primary" hidden>Block this site</button>
+  <p id="status" class="muted" hidden></p>
+  <button id="settings">Manage blocked sites</button>
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
